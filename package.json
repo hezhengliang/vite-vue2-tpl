@@ -1,0 +1,29 @@
+{
+  "name": "vite-tpl",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build-dev": "vite build --mode test",
+    "build-pro": "vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "amfe-flexible": "^2.2.1",
+    "axios": "^0.21.1",
+    "sa-sdk-javascript": "^1.16.9",
+    "vue": "^3.0.5",
+    "vue-router": "^4.0.0-0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^1.2.1",
+    "@vue/compiler-sfc": "^3.0.5",
+    "autoprefixer": "^10.2.5",
+    "node-sass": "^4.14.1",
+    "postcss-pxtorem": "^5.1.1",
+    "qs": "^6.10.1",
+    "sass": "^1.32.8",
+    "sass-loader": "^10.0.4",
+    "vconsole": "^3.3.4",
+    "vite": "^2.1.5"
+  }
+}

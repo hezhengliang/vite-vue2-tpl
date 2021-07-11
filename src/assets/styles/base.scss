@@ -1,0 +1,73 @@
+*{
+  padding:0;
+  margin:0;
+  list-style: normal;
+  text-decoration: none;
+}
+html,
+body .app {
+  padding:0;
+  margin:0;
+  color: #333333;
+  font-family: PingFangSC-Regular, PingFang SC, Microsoft YaHei;
+  background-color: #fff;
+  box-sizing: border-box;
+  text-align: center;
+}
+a,input,div{
+  -webkit-tap-highlight-color:rgba(255,0,0,0);
+}
+
+@font-face {
+  font-family: "DIN";
+  src: url("./DIN-Medium.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.f_row{
+	display: flex;
+	flex-direction: row;
+}
+.f_row_r{
+	display: flex;
+	flex-direction:row-reverse;
+}
+.f_col{
+	display: flex;
+	flex-direction: column;
+}
+.a_c{
+	align-items: center;
+}
+.a_e{
+	align-items: flex-end;
+}
+.j_c{
+	justify-content:center;
+}
+.j_b{
+	justify-content: space-between;
+}
+.j_a{
+	justify-content: space-around;
+}
+.j_e{
+	justify-content: flex-end;
+}
+
+$fw: 400;
+@while $fw <= 700 {
+  .fw_#{$fw} { 
+    font-weight: #{$fw};
+  }
+  $fw: $fw + 100;
+}
+.fw_700{
+  font-size:700;
+}
+@for $i from 12 to 38{
+  .fs_#{$i}{
+    font-size: #{$i}px;
+  }
+}

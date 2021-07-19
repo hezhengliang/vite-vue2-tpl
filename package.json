@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "{{description}}",
   "author": "{{author}}",
+  "license": "ISC",
   "scripts": {
     "dev": "vite",
     "build-dev": "vite build --mode test",

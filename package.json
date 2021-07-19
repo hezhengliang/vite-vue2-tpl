@@ -1,8 +1,8 @@
 {
   "name": "vite-tpl",
   "version": "1.0.0",
-  "description": "",
-  "author": "",
+  "description": "{{description}}",
+  "author": "{{author}}",
   "scripts": {
     "dev": "vite",
     "build-dev": "vite build --mode test",

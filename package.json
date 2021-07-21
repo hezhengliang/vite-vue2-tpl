@@ -25,7 +25,7 @@
     "postcss-pxtorem": "^5.1.1",
     "qs": "^6.10.1",
     "sass": "^1.32.8",
-    "sass-loader": "10.2.0",
+    "sass-loader": "^12.1.0",
     "vconsole": "^3.3.4",
     "vite": "^2.1.5"
   }

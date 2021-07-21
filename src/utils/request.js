@@ -17,13 +17,6 @@ const service = axios.create({
 // request拦截器 request interceptor
 service.interceptors.request.use(
   (config) => {
-    // switch(config.urlType){
-    //   case 'multi': 
-    //     config.url = multiApi + config.url;
-    //     break;
-    //   default: 
-    //     config.url = baseApi + config.url;
-    // }
     return config
   },
   error => {

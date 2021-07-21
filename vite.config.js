@@ -7,8 +7,10 @@ const IS_PROD = process.env.NODE_ENV === 'production'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [vue()],
-  alias: {
-    '@': resolve(__dirname, 'src')
+  resolve: {
+    alias: {
+      '@': resolve(__dirname, 'src')
+    },
   },
   // css: {
   //   preprocessorOptions: {
